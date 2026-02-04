@@ -1,0 +1,4 @@
+enum SourceValues{
+  fromLogin,
+  fromAuth
+}

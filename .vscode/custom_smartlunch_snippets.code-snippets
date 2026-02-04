@@ -1,0 +1,19 @@
+{
+	"languajeBody": {
+		"prefix": "languajeBody",
+		"body": [
+			"\"${1}\": \"${2}\",",
+			"\"@${1}\": {",
+			"  \"description\": \"Label for ${1}\"",
+			"}"
+		],
+		"description": "Snippet for languaje settings JSON structure"
+	},
+	"AppLocalizations Snippet": {
+		"prefix": "translatedText",
+		"body": [
+			"AppLocalizations.of(context)!.${1}"
+		],
+		"description": "Snippet for AppLocalizations call with a variable"
+	}
+}

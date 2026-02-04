@@ -1,0 +1,7 @@
+configurations.maybeCreate("default")
+
+artifacts.add("default", file('openpay-android-release.aar'))
+
+dependencies {
+
+}

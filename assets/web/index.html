@@ -1,0 +1,273 @@
+<html>
+
+<head>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style>
+		/* Estilo del loader proporcionado */
+		.loader {
+			width: 50px;
+			aspect-ratio: 1;
+			border-radius: 50%;
+			background:
+				radial-gradient(farthest-side, #ffa516 94%, #0000) top/8px 8px no-repeat,
+				conic-gradient(#0000 30%, #ffa516);
+			-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+			animation: l13 1s infinite linear;
+		}
+
+		@keyframes l13 {
+			100% {
+				transform: rotate(1turn);
+			}
+		}
+
+		/* Centrar el loader */
+		.loader-container {
+			display: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			/* Altura completa de la ventana */
+			width: 100vw;
+			/* Anchura completa de la ventana */
+		}
+
+		#creditcard-container {
+			display: none;
+			/* Oculto por defecto */
+		}
+	</style>
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+	<script>
+
+		let success = true;
+		$(document).ready(function () {
+			// var apiKey = $("#apiKey").text().trim(); // Obtener el valor del APIKey y eliminar espacios en blanco al inicio y al final
+			// apiKey = apiKey.replace(/[\n\r]/g, ''); // Eliminar caracteres de nueva línea
+
+			$('.loader-container').show();
+
+			$.ajax({
+				"type": "GET",
+				"url": "https://bacgateway.merchantprocess.net/SecureComponent/v2/UIComponent/CreditCard",
+				"data": { "APIKey": "vPiC9YxGbyvU", "Token": $("#txtToken").val(), "Culture": "es" },
+				"success": function (jsonResponse, status) {
+				//vPiC9YxGbyvU
+				//https://bacgateway.merchantprocess.net/SecureComponent/v2/UIComponent/CreditCard 
+
+
+				//q9CZkq18RMjJ
+				//https://bacapicomponent.test.merchantprocess.net/UIComponent/CreditCard
+
+
+
+					$("#creditcard-container").html(jsonResponse.toString());
+
+					// Aplicar estilo dinámicamente
+					const styles = {
+						'.card-ui-component-field': {
+							'margin': '0 auto',
+							'display': 'block',
+							'width': '100%',
+							'height': '100%',
+							'font-size': '5vw',
+							'line-height': '1.42857143',
+							'color': '#555',
+							'background-color': '#fff',
+							'background-image': 'none',
+							'border': '1px solid #ccc',
+							'border-radius': '4px',
+							'box-shadow': 'inset 0 1px 1px rgba(0, 0, 0, .075)',
+							'transition': 'border-color ease-in-out .15s, box-shadow ease-in-out .15s'
+						},
+						'.card-ui-component-ddl-expiry': {
+							'display': 'block',
+							'width': '30%',
+							'height': '34px',
+							'padding': '6px 12px',
+							'font-size': '6vw',
+							'line-height': '1.42857143',
+							'color': '#555',
+							'background-color': '#fff',
+							'background-image': 'none',
+							'border': '1px solid #ccc',
+							'border-radius': '4px',
+							'box-shadow': 'inset 0 1px 1px rgba(0, 0, 0, .075)',
+							'transition': 'border-color ease-in-out .15s, box-shadow ease-in-out .15s',
+							'float': 'left',
+							'margin-right': '10px'
+						},
+						'.card-ui-component-outer': {
+							'margin-bottom': '20px',
+							'border-radius': '4px',
+							'height': '80%',
+							'width': '100%',
+							'margin': '0 auto',
+							'position': 'relative'
+						},
+						'.card-ui-component-input-style': {
+							'display': 'flex',
+							'justify-content': 'space-between',
+							'width': '100%',
+							'height': '15%',
+							'float': 'right',
+							'position': 'relative',
+							'gap': '10px'
+						},
+						'.card-ui-component-btn-action': {
+							'width': '48%',
+							'margin-left': '10px',
+							'display': 'inline-block',
+							'margin-bottom': '0',
+							'height': '50%',
+							'font-size': '3vw',
+							'font-weight': '400',
+							'line-height': '1.42857143',
+							'text-align': 'center',
+							'white-space': 'nowrap',
+							'vertical-align': 'middle',
+							'user-select': 'none',
+							'background-image': 'none',
+							'border': '1px solid transparent',
+							'border-radius': '4px'
+						},
+						'.card-ui-component-action-container': {
+							'display': 'flex',
+							'justify-content': 'center',
+							'text-align': 'center',
+							'height': '15%'
+						},
+						'.card-ui-productDetails': {
+							'display': 'flex',
+							'padding': '20px 0px',
+							'font-size': '6vw',
+							'width': '470px',
+							'margin': '0 auto',
+							'flex-direction': 'row',
+							'align-items': 'center'
+						},
+						'.card-ui-amount': {
+							'border-top': '1px solid',
+							'border-bottom': '1px solid',
+							'text-align': 'center',
+							'padding': '10px',
+							'color': '#337ab7',
+							'font-weight': '600',
+							'font-size': '6vw',
+							'background': '#337ab717'
+						},
+						'.card-ui-details': {
+							'border-top': '1px solid',
+							'border-bottom': '1px solid',
+							'text-align': 'center',
+							'padding': '10px',
+							'color': '#337ab7',
+							'font-weight': '600',
+							'font-size': '6vw',
+							'background': '#337ab717'
+						},
+						'.card-wrapper': {
+							'width': '10%',
+							'height': '35vh',
+						}
+					}
+
+					for (let selector in styles) {
+						$(selector).css(styles[selector]);
+					}
+
+					setTimeout(function () {
+						//const size = window.innerWidth < 500 ? '7vw' : '2vw'; 
+						const windowSize = window.screen.width;
+						let size = '5vw';
+						let holderText = '3vw';
+						let width = '10vw';
+						let height = '5vh';
+
+
+
+
+						console.log(size)
+						console.log(windowSize)
+						const styles2 = {
+							'.jp-card': {
+								'width': '98vw',
+								'height': '35vh',
+								'font-size': size
+							},
+							'.jp-card-number': {
+								'font-size': size
+							},
+							'.jp-card-expiry': {
+								'font-size': size
+							},
+							'.jp-card-cvc': {
+								'font-size': size
+							},
+							'.jp-card-name': {
+								'font-size': holderText
+							},
+							'.jp-card-shiny': {
+								'width': width,
+								'height': height
+							}
+
+
+						}
+
+						for (let selector in styles2) {
+							$(selector).css(styles2[selector]);
+						}
+
+						$('.loader-container').hide();
+						$('#creditcard-container').show();
+
+					}, 1000);
+
+
+				},
+			});
+		});
+
+		function SaveCreditCard_FailureCallback(response) {
+			console.log("Error")
+			console.log(response);
+
+			if (Flutter) {
+				Flutter.postMessage("Error");
+			}
+
+		}
+		function SaveCreditCard_SuccessCallback(response) {
+			console.log("Success")
+			console.log(JSON.stringify(response));
+
+			if (Flutter) {
+				Flutter.postMessage(JSON.stringify(response));
+			}
+		}
+		function SaveCreditCard_CancelCallback() {
+			console.log("Hello")
+
+		}
+	</script>
+</head>
+
+<body>
+
+	<div class="loader-container">
+		<div class="loader"></div>
+	</div>
+
+	<div id="creditcard-container" class="col-12">
+	</div>
+
+
+</body>
+
+</html>

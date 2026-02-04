@@ -1,0 +1,941 @@
+{
+  "homePageStack": "balance",
+  "@homePageStack": {
+    "description": "Label for homePageStack"
+  },
+  "login": "Sign in",
+  "@login": {
+    "description": "Label for login page button"
+  },
+  "email": "Email",
+  "@login": {
+    "description": "Label for email input"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Label for password input"
+  },
+  "login_error": "Invalid email or password",
+  "@login_error": {
+    "description": "Label for login error"
+  },
+  "reset_password": "Reset password",
+  "@reset_password": {
+    "description": "Label for reset password button"
+  },
+  "terms_and_conditions": "Terms and\nconditions",
+  "@terms_and_conditions": {
+    "description": "Label for terms and conditions button"
+  },
+  "political_privacy": "Political\nprivacity",
+  "@political_privacy": {
+    "description": "Label for political privacy button"
+  },
+  "contact": "Contact",
+  "@contact": {
+    "description": "Label for contact button"
+  },
+  "password_recover": "Password recovery",
+  "@password_recover": {
+    "description": "Label for password recover section"
+  },
+  "send_button": "Send",
+  "@send_button": {
+    "description": "Label for send button"
+  },
+  "go_back_button": "Go back",
+  "@go_back_button": {
+    "description": "Label for go back button"
+  },
+  "sale": "Sales",
+  "@sale": {
+    "description": "Label for sale button"
+  },
+  "presale": "Presale",
+  "@presale": {
+    "description": "Label for presale_button"
+  },
+  "today_purchases": "Today's shopping history",
+  "@today_purchases": {
+  },
+  "presales": "Presales",
+  "@presales": {
+    "description": "Label for presales option"
+  },
+  "home": "Home",
+  "@home": {
+    "description": "Label for home"
+  },
+  "top_up": "Top up",
+  "@top_up": {
+    "description": "Label for top up button"
+  },
+  "menu": "Menu",
+  "@menu": {
+    "description": "Label for menu drawer option"
+  },
+  "tutor": "Tutor",
+  "@tutor": {
+    "description": "Label for tutor role"
+  },
+  "teacher": "Teacher",
+  "@teacher": {
+    "description": "Label for teacher role"
+  },
+  "student": "Student",
+  "@student": {
+    "description": "Label for student role"
+  },
+  "children": "children",
+  "@children": {
+    "description": "Label for children option"
+  },
+  "history": "History",
+  "@history": {
+    "description": "Label for history option"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Label for settings option"
+  },
+  "log_out": "Log out",
+  "@log_out": {
+    "description": "Label for log_out"
+  },
+  "delivery_date": "Delivery date",
+  "@delivery_date": {
+    "description": "Label for delivery date title"
+  },
+  "presale_canceled": "Presale canceled succesfully!",
+  "@presale_canceled": {
+    "description": "Label for presale canceled message"
+  },
+  "close_button": "Close",
+  "@close_button": {
+    "description": "Label for close button"
+  },
+  "cancel_button": "Cancel",
+  "@cancel_button": {
+    "description": "Label for cancel button"
+  },
+
+  "register_button": "Register",
+  "@register_button": {
+    "description": "Label for register_button"
+  },
+
+  "confirm_button": "Confirm",
+  "@confirm_button": {
+    "description": "Label for confirm_button"
+  },
+
+  "select_button": "Select",
+  "@select_button": {
+    "description": "Label for select_button"
+  },
+
+  "add_card": "Add",
+  "@add_card": {
+    "description": "Label for add_card"
+  },
+
+  "cancel_presale_error": "Error cancelling\npresale",
+  "@cancel_presale_error": {
+    "description": "Label for cancel presale error message"
+  },
+  "product_message": "Product",
+  "@product_message": {
+    "description": "Label for product message"
+  },
+  "amount_message": "Amount",
+  "@amount_message": {
+    "description": "Label for amount message"
+  },
+  "price_message": "Price",
+  "@price_message": {
+    "description": "Label for price message"
+  },
+  "select_delivery_date": "Select a delivery date",
+  "@select_delivery_date": {
+    "description": "Label for select delivery date message"
+  },
+  "total_price": "Total",
+  "@total_price": {
+    "description": "Label for total price message"
+  },
+  "view_cart": "Shopping cart",
+  "@view_cart": {
+    "description": "Label for view_cart"
+  },
+  "order_information": "Order information",
+  "@order_information": {
+    "description": "Label for order information"
+  },
+  "order_message": "Order",
+  "@order": {
+    "description": "Label for order"
+  },
+  "deliver_to": "Deliver to",
+  "@deliver_to": {
+    "description": "Label for deliver to"
+  },
+  "available_balance": "Available balance",
+  "@available_balance": {
+    "description": "Label for available_balance"
+  },
+  "today_sale_information": "This purchase must be collected today; otherwise, it will expire.",
+  "@today_sale_information": {
+    "description": "Label for sale information message"
+  },
+  "deliver_in_time": "Deliver in",
+  "@deliver_in_time": {
+    "description": "Label for deliver in message"
+  },
+  "details": "Details",
+  "@details": {
+    "description": "Label for general details message"
+  },
+  "daily_limit_warning": "The student has a daily balance limit of",
+  "@daily_limit_warning": {
+    "description": "Label for daily_limit_warning"
+  },
+  "please_wait": "Please wait!",
+  "@please_wait": {
+    "description": "Label for wait message"
+  },
+  "maximun_products_warning_p1": "You can only select",
+  "@maximun_products_warning_p1": {
+    "description": "Label for maximun products warning message"
+  },
+  "maximun_products_warning_p2": "items of this product",
+  "@maximun_products_warning_p2": {
+    "description": "Label for maximun products warning message"
+  },
+  "purchase_exceed_balance_message": "This purchase exceeds your current balance",
+  "@purchase_exceed_balance_message": {
+    "description": "Label for purchase_exceed_balance_message"
+  },
+  "must_select_pickup_date": "You must select the pickup time",
+  "@must_select_pickup_date": {
+    "description": "Label for must_select_pickup_date"
+  },
+  "comments_message": "Comments",
+  "@comments_message": {
+    "description": "Label for comments_message"
+  },
+  "select_payment_method": "Select a payment method",
+  "@select_payment_method": {
+    "description": "Label for select_payment_method"
+  },
+  "buy_now": "Buy it now",
+  "@buy_now": {
+    "description": "Label for buy_now"
+  },
+  "order_completed": "Order completed!",
+  "@order_completed": {
+    "description": "Label for order_completed"
+  },
+  "purchase_successfully_mesage": "Thank you for your purchase",
+  "@purchase_successfully": {
+    "description": "Label for purchase_successfully"
+  },
+  "the_order": "Order ",
+  "@the_order": {
+    "description": "Label for the_order"
+  },
+  "will_be_ready_message": " will be ready for ",
+  "@will_be_ready_message": {
+    "description": "Label for will_be_ready_message"
+  },
+  "on_message": " on ",
+  "@on_message": {
+    "description": "Label for on_message"
+  },
+  "folio_message": "Folio",
+  "@folio_message": {
+    "description": "Label for folio_message"
+  },
+  "date": "Date",
+  "@date": {
+    "description": "Label for date"
+  },
+  "total_items": "Total items",
+  "@total_items": {
+    "description": "Label for total_items"
+  },
+  "subtotal": "Subtotal",
+  "@subtotal": {
+    "description": "Label for subtotal"
+  },
+  "purchase_date": "Purchase date",
+  "@purchase_date": {
+    "description": "Label for purchase_date"
+  },
+  "active_message": "Active",
+  "@active_message": {
+    "description": "Label for active_message"
+  },
+  "inactive_message": "Inactive",
+  "@inactive_message": {
+    "description": "Label for inactive_message"
+  },
+
+  "registration": "Registration: ",
+  "@registration_number": {
+    "description": "Label for registration_number"
+  },
+  "student_information": "Information",
+  "@student_information": {
+    "description": "Label for student_information"
+  },
+
+  "student_management": "Management",
+  "@student_management": {
+    "description": "Label for student_management"
+  },
+
+  "user_name": "Name",
+  "@user_name": {
+    "description": "Label for user_name"
+  },
+
+  "user_lastname": "Lastname",
+  "@user_lastname": {
+    "description": "Label for user_lastname"
+  },
+
+  "phone_numer": "Phone number",
+  "@phone_numer": {
+    "description": "Label for phone_numer"
+  },
+
+  
+  "save_button": "Save",
+  "@save_button": {
+    "description": "Label for save_button"
+  },
+  "daily_limit": "Daily limit",
+  "@daily_limit": {
+    "description": "Label for daily_limit"
+  },
+  "unlimited_message": "Unlimited",
+  "@unlimited_message": {
+    "description": "Label for unlimited_message"
+  },
+  "allergies_message": "Allergies",
+  "@allergies_message": {
+    "description": "Label for allergies_message "
+  },
+  "none_message": "None",
+  "@none_message": {
+    "description": "Label for none_message"
+  },
+  "forbidden_products": "Forbidden products",
+  "@forbidden_products": {
+    "description": "Label for forbidden_products "
+  },
+  "products": "products",
+  "@products": {
+    "description": "Label for products"
+  },
+  "limited_products": "Limited products",
+  "@limited_products": {
+    "description": "Label for limited_products"
+  },
+
+  "enter_amount": "Enter the amount",
+  "@enter_amount": {
+    "description": "Label for enter_amount"
+  },
+  "common_allergies": "Common allergies",
+  "@common_allergies": {
+    "description": "Label for common_allergies"
+  },
+  "other_allergies": "Other allergies",
+  "@other_allergies": {
+    "description": "Label for other_allergies"
+  },
+  "allowed_message": "allowed",
+  "@allowed_message": {
+    "description": "Label for allowed_message"
+  },
+  "forbidden_message": "Forbidden",
+  "@forbidden_message": {
+    "description": "Label for forbidden_message"
+  },
+  "limit_message": "Limit",
+  "@limit_message": {
+    "description": "Label for limit_message"
+  },
+  "allow_notifications": "Allow notifications",
+  "@allow_notifications": {
+    "description": "Label for allow_notifications"
+  },
+
+  "change_password": "Change password",
+  "@change_password": {
+    "description": "Label for change_password"
+  },
+
+  "family_message": "Family",
+  "@family_message": {
+    "description": "Label for family"
+  },
+  "account_message": "Account",
+  "@account_message": {
+    "description": "Label for account_message"
+  },
+
+  "current_password": "Current password",
+  "@current_password": {
+    "description": "Label for current_password"
+  },
+
+  "new_password": "New password",
+  "@new_password": {
+    "description": "Label for new_password"
+  },
+
+  "confirm_password": "Confirm password",
+  "@confirm_password": {
+    "description": "Label for confirm_password"
+  },
+  "update_password": "Update password",
+  "@update_password": {
+    "description": "Label for update_password"
+  },
+
+  "current_balance": "Current balance",
+  "@current_balance": {
+    "description": "Label for current_balance"
+  },
+
+  "another_amount": "Another amount",
+  "@another_amount": {
+    "description": "Label for another_amount"
+  },
+
+  "suggested_options": "Suggested options",
+  "@suggested_options": {
+    "description": "Label for suggested_options"
+  },
+
+  "minimum_recharge_amount": "The minimum recharge amount is",
+  "@minimum_recharge_amount": {
+    "description": "Label for minimum_recharge_amount"
+  },
+
+  "amount_not_valid": "The entered amount is not valid.",
+  "@amount_not_valid": {
+    "description": "Label for amount_not_valid"
+  },
+
+  "payment_method": "Payment method",
+  "@payment_method": {
+    "description": "Label for payment_method"
+  },
+
+  "card_message": "Card",
+  "@card_message": {
+    "description": "Label for card_message"
+  },
+
+  "card_owner": "Owner",
+  "@card_owner": {
+    "description": "Label for card_owner"
+  },
+
+  "register_card": "Register new card",
+  "@register_card": {
+    "description": "Label for register_card"
+  },
+
+  "update_card": "Update card",
+  "@update_card": {
+    "description": "Label for update_card"
+  },
+
+  "successful_recharge": "Successful recharge",
+  "@successful_recharge": {
+    "description": "Label for successful_recharge"
+  },
+
+  "failed_recharge": "Failed recharge",
+  "@failed_recharge": {
+    "description": "Label for failed_recharge"
+  },
+
+  "transaction_id": "Transaction ID",
+  "@transaction_id": {
+    "description": "Label for transaction_id"
+  },
+
+  "openpay_id": "Openpay ID",
+  "@openpay_id": {
+    "description": "Label for openpay_id"
+  },
+  "cards_message": "cards",
+  "@cards_message": {
+    "description": "Label for cards_message"
+  },
+  "crendential_message": "Credential",
+  "@crendential_message": {
+    "description": "Label for crendential_message"
+  },
+
+  "view_today_purchases": "View today's purchases",
+  "@view_today_purchases": {
+    "description": "Label for view_today_purchases"
+  },
+
+  "presale_description": "Buy today and schedule your delivery\nfor another day",
+  "@presale_description": {
+    "description": "Label for presale_description"
+  },
+
+  "sale_description": "Buy and pick up your order today",
+  "@sale_description": {
+    "description": "Label for sale_description"
+  },
+
+  "view_menu": "View menu",
+  "@view_menu": {
+    "description": "Label for view_menu"
+  },
+  "choose_card": "Choose card",
+  "@choose_card": {
+    "description": "Label for choose_card"
+  },
+
+  "digital_card": "Digital card",
+  "@digital_card": {
+    "description": "Label for digital_card"
+  },
+
+  "birth_date_message": "Birthdate",
+  "@birth_date_message": {
+    "description": "Label for birth_date_message"
+  },
+  "qr_description": "Use this QR code to receive your purchases at your cafeteria",
+  "@qr_description": {
+    "description": "Label for qr_description"
+  },
+  "remove_card": "Remove card",
+  "@remove_card": {
+    "description": "Label for remove_card"
+  },
+  "remove_card_warning": "Do you wish to remove the card ending in",
+  "@remove_card_warning": {
+    "description": "Label for remove_card_warning"
+  },
+  "add_card": "Add card",
+  "@add_card": {
+    "description": "Label for add_card"
+  },
+  "credit_card": "Credit cards",
+  "@credit_card": {
+    "description": "Label for credit_card"
+  },
+  "debit_cards": "Debit cards",
+  "@debit_cards": {
+    "description": "Label for debit_cards"
+  },
+  "card_number": "Card number",
+  "@card_number": {
+    "description": "Label for card_number"
+  },
+  "owner_full_name": "Owner full name",
+  "@owner_full_name": {
+    "description": "Label for owner_full_name"
+  },
+  "card_cvv": "Card CVV",
+  "@card_cvv": {
+    "description": "Label for card_cvv"
+  },
+
+  "updated_allergies_successfully": "Allergies updated successfully",
+  "@updated_allergies": {
+    "description": "Label for updated_allergies"
+  },
+
+  "updated_allergies_error": "Error updating allergies, please try again later.",
+  "@updated_allergies_error": {
+    "description": "Label for updated_allergies_error"
+  },
+
+  "balance_body_updated_succesfully": "Balance limit updated successfully",
+  "@balance_body_updated_succesfully": {
+    "description": "Label for balance_body_updated_succesfully"
+  },
+
+  "balace_body_updated_error": "Error updating the limit, please try again later",
+  "@balace_body_updated_error": {
+    "description": "Label for balace_body_updated_error"
+  },
+
+  "limited_products_succesfully": "Limited products updated successfully.",
+  "@limited_products_succesfully": {
+    "description": "Label for limited_products_succesfully"
+  },
+  "limited_products_error": "Error updating limited products, please try again later.",
+  "@limited_products_error": {
+    "description": "Label for limited_products_error"
+  },
+
+  "forbidden_products_succesfully": "Prohibited products updated successfully.",
+  "@forbidden_products_succesfully": {
+    "description": "Label for forbidden_products_succesfully"
+  },
+
+  "forbidden_products_error": "Error updating forbidden products, please try again later.",
+  "@forbidden_products_error": {
+    "description": "Label for forbidden_products_error"
+  },
+
+  "register_card_succesfull": "Card successfully registered.",
+  "@register_card_succesfull": {
+    "description": "Label for register_card_succesfull"
+  },
+  "verify_information": "Please verify your information.",
+  "@verify_information": {
+    "description": "Label for verify_information"
+  },
+
+  "error_registering_card": "Error registering card, please try again later.",
+  "@error_registering_card": {
+    "description": "Label for error_registering_card"
+  },
+  "selected_card_succesfully": "Card selected successfully.",
+  "@selected_card_succesfully": {
+    "description": "Label for selected_card_succesfully"
+  },
+
+  "error_selecting_card": "Error selecting, please try again later.",
+  "@error_selectiing_card": {
+    "description": "Label for error_selectiing_card"
+  },
+
+  "try_again_later": "Error, please try again later",
+  "@try_again_later": {
+    "description": "Label for try_again_later"
+  },
+ "recharge_error": "Error processing the recharge, please try again later.",
+ "@recharge_error": {
+   "description": "Label for recharge_error"
+ },
+
+ "delete_card_successfully": "Card successfully removed",
+ "@delete_card_successfully": {
+   "description": "Label for delete_card_successfully"
+ },
+ "removing_card_error": "Error removing card, please try again later",
+ "@removing_card_error": {
+   "description": "Label for removing_card_error"
+ },
+
+ "support_message": "Support",
+ "@support_message": {
+   "description": "Label for support_message"
+ },
+ "succesfully_updated_card": "Card update successfully",
+ "@succesffully_updated_card": {
+   "description": "Label for succesffully_updated_card"
+ },
+ "updated_profile_succesfully": "Profile updated successfully",
+ "@updated_profile_succesfully": {
+   "description": "Label for updated_profile_succesfully"
+ },
+
+ "error_updating_profile": "Error updating profile",
+ "@error_updating_profile": {
+   "description": "Label for error_updating_profile"
+ },
+
+ "cvv_error": "CVV must be at least 3 digits long",
+ "@cvv_erorr": {
+   "description": "Label for cvv_erorr"
+ },
+
+ "user_message": "User",
+ "@user_message": {
+   "description": "Label for user_message"
+ },
+
+ "current_debt": "Current debt",
+ "@current_debt": {
+   "description": "Label for current_debt"
+ },
+
+ "total_debt": "Total debt",
+ "@total_debt": {
+   "description": "Label for total_debt"
+ },
+
+ "pay_debt_explanation": "To cover the debt, you must make a recharge of at least the total amount of the debt",
+ "@pay_debt_explanation": {
+   "description": "Label for pay_debt_explanation"
+ },
+
+"sale_type": "Sale type",
+"@sale_type": {
+  "description": "Label for sale_type"
+},
+"platfotm_message": "Platform",
+"@platfotm_message": {
+  "description": "Label for platfotm_message"
+},
+
+"time": "Time",
+"@time": {
+  "description": "Label for time"
+},
+"new_available_version": "New version available",
+"@new_available_version": {
+  "description": "Label for new_available_version"
+},
+
+"app_benefits": "Please update the app to the latest version to continue enjoying the benefits.",
+"@app_benefits": {
+  "description": "Label for app_benefits"
+},
+
+"update_message": "Update",
+"@update_message": {
+  "description": "Label for update_message"
+},
+
+"missing_smart_id": "You do not have a SMART ID. Please request one at your cafeteria",
+"@missing_smart_id": {
+  "description": "Label for missing_smart_id"
+},
+"place_order": "Place your order",
+"@place_order": {
+  "description": "Label for place_order"
+},
+"password_not_match": "Passwords do not match",
+"@password_not_match": {
+  "description": "Label for password_not_match"
+},
+"check_email": "Please, check your email",
+"@check_email": {
+  "description": "Label for check_email"
+},
+
+"send_email_message": "We have sent a recovery email to ",
+"@send_email_message": {
+  "description": "Label for send_email_message"
+},
+
+"click_link": " click the link to reset your password",
+"@click_link": {
+  "description": "Label for click_link"
+},
+
+"note": "Note",
+"@note": {
+  "description": "Label for note"
+},
+"check_spam_message": "If you don't see the email, please check your spam folder",
+"@check_spam_message": {
+  "description": "Label for check_spam_message"
+},
+
+"password_updated": "Password updated successfully",
+"@password_updated": {
+  "description": "Label for password_updated"
+},
+
+"wrong_current_password": "The entered password is incorrect",
+"@wrong_current_password": {
+  "description": "Label for wrong_current_password"
+},
+"description_message": "Description",
+"@description_message": {
+  "description": "Label for description_message"
+},
+"ingredients": "Ingredients",
+"@ingredients": {
+  "description": "Label for ingredients"
+},
+"register_payment_method": "Please register a payment method",
+"@register_payment_method": {
+  "description": "Label for register_payment_method"
+},
+
+"finish_purchase": "Finish purchase",
+"@finish_purchase": {
+  "description": "Label for finish_purchase"
+},
+
+"languaje_message": "Languaje",
+"@languaje": {
+  "description": "Label for languaje"
+},
+
+"searh_product": "Search product",
+"@searh_product": {
+  "description": "Label for searh_product"
+},
+"verifying_message": "verifying",
+"@verifying_message": {
+  "description": "Label for verifying_message"
+},
+"loading_message": "Loading",
+"@loading_message": {
+  "description": "Label for loading_message"
+},
+"succes_sale": "order successfully placed",
+"@succes_sale": {
+  "description": "Label for succes_sale"
+},
+
+"error_sale": "error placing order",
+"@error_sale": {
+  "description": "Label for error_sale"
+},
+
+"continuePayment": "Continue to payment",
+"@continuePayment": {
+  "description": "Label for continuePayment"
+},
+
+"commisionFee": "commission fee",
+"@commisionFee": {
+  "description": "Label for commisionFee"
+},
+
+"orAlso": "Or also",
+"@orAlso": {
+  "description": "Label for orAlso"
+},
+
+"pay_with": "Pay with",
+"@pay_with": {
+  "description": "Label for pay_with"
+},
+
+"need_help_question": "Contact support",
+"@need_help_question": {
+  "description": "Label for need_help_question"
+},
+
+"pending_membership": "Pending membership payment",
+"@pending_membership": {
+  "description": "Label for pending_membership"
+},
+
+"pending_membership_payment": "We have detected an expired or pending membership on your account. Please pay now to continue making purchases from the app.",
+"@pendingMembershipPayment": {
+  "description": "Label for pendingMembershipPayment"
+},
+
+"pay_now": "Pay now",
+"@pay_now": {
+  "description": "Label for pay_now"
+},
+
+"membership_payment": "Membership payment",
+"@membership_payment": {
+  "description": "Label for membership_payment"
+},
+
+"pay_membership_legend": "Make the payment to continue making purchases from the app and enjoy all the benefits.",
+"@pay?membership_legend": {
+  "description": "Label for pay?membership_legend"
+},
+
+"canceled_message": "Canceled",
+"@canceled_message": {
+  "description": "Label for canceled_message"
+},
+
+"payment_by_guardian": "(The payment must be made by your guardian)",
+"@payment_by_guardian": {
+  "description": "Label for payment_by_guardian"
+},
+
+"multisale": "Multisale",
+"@multisale": {
+  "description": "Label for multisale"
+},
+"select_student": "Select a student",
+"@select_student": {
+  "description": "Label for select_student"
+},
+"student_information": "Student information",
+"@student_information": {
+  "description": "Label for student_information"
+},
+"information_text": "Information",
+"@information_text": {
+  "description": "Label for information_text"
+},
+"no_order": "No orders",
+"@no_order": {
+  "description": "Label for no_order"
+},
+
+"make_one_order": "Place at least one order",
+"@make_one_order": {
+  "description": "Label for make_one_order"
+},
+"add_comment": "Add coment",
+"@add_cooment": {
+  "description": "Label for add_cooment"
+},
+
+"pay_with_balance": "Pay with balance",
+"@pay_with_balance": {
+  "description": "Label for pay_with_balance"
+},
+"membership_expiration": "Expiration",
+"@membership_expiration": {
+  "description": "Label for membership_expiration"
+},
+
+"summary_sale_message": "Sale details",
+"@summary_sale_message": {
+  "description": "Label for summary_sale_message"
+},
+"delivery_date_message": "Delivery date",
+"@delivery_date_message": {
+  "description": "Label for delivery_date_message"
+},
+"multisale_description": "Schedule your purchases for multiple days.",
+"@": {
+  "description": "Label for multisale_description"
+},
+"disccount_message": "Disccount",
+"@": {
+  "description": "Label for "
+},
+"membership_message": "Membership",
+"@membership_message": {
+  "description": "Label for membership_message"
+},
+"bank_fee": "Bank fee",
+"@bank_fee": {
+  "description": "Label for bank_fee"
+},
+
+"payment_completed": "Payment completed",
+"@payment_completed": {
+  "description": "Label for payment_completed"
+},
+
+"succes_membership_payment": "Successful membership payment",
+"@succes_membership_payment": {
+  "description": "Label for succes_membership_payment"
+},
+
+"error_membership_payment": "Error paying membership",
+"@error_membership_payment": {
+  "description": "Label for error_membership_payment"
+},
+
+"cafeteria_text": "Cafeteria",
+"@cafeteria_text": {
+  "description": "Label for cafeteria_text"
+}
+}
+

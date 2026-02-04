@@ -1,0 +1,20 @@
+{
+    "applinks":{
+      "apps":[
+         
+      ],
+      "details":[
+        {
+          "appIDs":[
+            "697RKHTBPD.com.smart.lunch.smartlunch"
+          ],
+          "components":[
+            {
+              "/":"/restore-password-deeplink",
+              "comment":""
+            }
+          ]
+        }
+      ]
+    }
+  }
