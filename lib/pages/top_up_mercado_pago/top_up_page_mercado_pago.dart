@@ -23,13 +23,18 @@ class TopUpPage extends StatelessWidget {
       listen: false,
     );
 
-    topUpProvider.setRechargeTotal(mainProvider
-            .cafeteriaSetting!.minimumRechargeEnabled
-        ? mainProvider.cafeteriaSetting!.minimumRechargeAmount.toDouble()
-        : mainProvider.cafeteriaSetting!.minimumRechargeNoCommission
-            ? mainProvider.cafeteriaSetting!.minimumRechargeNoCommissionAmount
-                .toDouble()
-            : 50);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final mainProvider = context.read<MainProvider>();
+      final topUpProvider = context.read<TopUpProvider>();
+
+      topUpProvider.setRechargeTotal(mainProvider
+              .cafeteriaSetting!.minimumRechargeEnabled
+          ? mainProvider.cafeteriaSetting!.minimumRechargeAmount.toDouble()
+          : mainProvider.cafeteriaSetting!.minimumRechargeNoCommission
+              ? mainProvider.cafeteriaSetting!.minimumRechargeNoCommissionAmount
+                  .toDouble()
+              : 50);
+    });
 
     return Scaffold(
       body: Stack(

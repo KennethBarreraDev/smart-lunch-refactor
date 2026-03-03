@@ -25,13 +25,22 @@ class TopUpOpenPayPage extends StatelessWidget {
       listen: false,
     );
 
-    MainProvider mainProvider = Provider.of<MainProvider>(
-      context,
-      listen: false,
-    );
 
-    topUpProvider.setRechargeTotal(double.parse(
-        mainProvider.cafeteriaSetting!.minimunOpenPayRechargeValue.toString()));
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+    final mainProvider = context.read<MainProvider>();
+    final topUpProvider = context.read<TopUpProvider>();
+
+    topUpProvider.setRechargeTotal(
+      double.parse(
+        mainProvider.cafeteriaSetting!
+            .minimunOpenPayRechargeValue
+            .toString(),
+      ),
+    );
+  });
+
+    // topUpProvider.setRechargeTotal(double.parse(
+    //     mainProvider.cafeteriaSetting!.minimunOpenPayRechargeValue.toString()));
 
     //List<double> buttonsList = topUpProvider.getValuesToRender(double.parse(mainProvider.cafeteriaSetting!.minimunOpenPayRechargeValue.toString()));
 
@@ -271,8 +280,8 @@ class TopUpOpenPayPage extends StatelessWidget {
                                                         const EdgeInsets.only(
                                                             top: 20, left: 15),
                                                     child: Container(
-                                                      width: 40,
-                                                      height: 40,
+                                                      width: 50,
+                                                      height: 50,
                                                       decoration:
                                                           const BoxDecoration(
                                                         shape: BoxShape.circle,
