@@ -89,3 +89,7 @@ String getCardBrandImage(String brand) {
       return visaLogo;
   }
 }
+
+String cardBrandImageWithFallback(String? brand) {
+  return getCardBrandImage((brand?.isNotEmpty ?? false) ? brand! : "visa");
+}
